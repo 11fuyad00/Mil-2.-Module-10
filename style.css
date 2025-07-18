@@ -1,0 +1,78 @@
+body {
+ background-color: whitesmoke;
+}
+.logo {
+  color: #161B21;
+  transform: translateY(35px);
+  margin-left: 40px;
+}
+.header-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  justify-content: end;
+  transform: translateY(-50px);
+  margin-right: 40px;
+}
+.nave-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-size: 20px;
+}
+.nave-list a {
+  text-decoration: none;
+  color: black;
+}
+.search-section img{
+ width: 40px;
+ height: 40px;
+}
+.cart-section img {
+  width: 70px;
+  height: 40px;
+}
+.search-section, cart-section {
+  margin-top: 7px;
+}
+.cart-section {
+  transform: translateY(5px);
+}
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+}
+.left-hero {
+  transform: translateY(70px);
+  margin-left: 80px;
+}
+.left-hero h1 {
+  font-size: 45px;
+}
+.btn-primary {
+  background-color: #E02C6D;
+  color: white;
+  font-size: 24px;
+  border-radius: 25px;
+  padding: 7px 20px;
+  border-color: aliceblue;
+}
+.btn-primary:hover {
+  background-color: #0b60d1
+}
+.right-hero {
+  margin-right: 120px;
+}
+.logo-items {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.logo-section {
+  margin-top: 70px;
+}
+.products-container h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
