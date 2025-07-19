@@ -76,3 +76,30 @@ body {
   margin-top: 100px;
   font-size: 30px;
 }
+.banner-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.banner-card {
+ background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 8px;
+  font-size: 20px;
+}
+.see-more-btn {
+  background-color: #E02C6D;
+  color: white;
+  font-size: 10px;
+  border-radius: 25px;
+  padding: 7px 20px;
+  border-color: aliceblue;
+}
+.btn-secondary {
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+}
