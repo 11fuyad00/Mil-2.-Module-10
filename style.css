@@ -6,6 +6,10 @@ body {
   transform: translateY(35px);
   margin-left: 40px;
 }
+.logo img {
+  height: 25px;
+  width: auto;
+}
 .header-container {
   display: flex;
   gap: 30px;
@@ -85,7 +89,7 @@ body {
 .banner-card {
  background: white;
   padding: 16px;
-  border-radius: 12px;
+  border-radius: 25px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin: 8px;
   font-size: 20px;
@@ -102,4 +106,58 @@ body {
   display: flex;
   justify-content: right;
   margin-right: 31px;
+}
+.see-more-btn:hover {
+  background-color: #0b60d1
+}
+.column-section {
+  display: flex;
+  justify-content: space-between;
+  transform: translate(100px);
+}
+.left-column {
+  padding: 20px;
+  margin-left: 170px;
+}
+.left-column img {
+  height: 300px;
+}
+.right-column {
+  padding: 20px;
+  margin-right: 450px;
+}
+.right-column button {
+  background-color: #E02C6D;
+  color: white;
+  font-size: 17px;
+  border-radius: 14px;
+  padding: 7px 20px;
+  border-color: aliceblue;
+}
+.right-column button:hover {
+  background-color: #0b60d1
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-icon img {
+  width: 30px;
+  justify-content: center;
+}
+.footer-logo {
+  height: 20px;
+  border-radius: 20px;
+}
+.footer-section {
+  text-align: center;
+  background-color: #660030;
+  color: #D9D9D9;
+  padding: 20px;
+  border-radius: 25px;
 }
